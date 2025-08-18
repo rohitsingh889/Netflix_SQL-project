@@ -276,7 +276,10 @@ GROUP BY actor
 ORDER BY COUNT(*) DESC
 LIMIT 10;
 
---Q15. Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
+--Q15. Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
+--the description field. Label content containing these keywords as 'Bad' and all other 
+
+
 SELECT 
     category,
     COUNT(*) AS content_count
@@ -294,7 +297,7 @@ FROM (
 ) AS categorized_content
 GROUP BY category;
 
---another approach
+--another approach (Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords)
 SELECT 
     show_id,
     title,
@@ -307,4 +310,5 @@ SELECT
         ELSE 'Other'
     END AS category
 FROM netflix;
+
 
