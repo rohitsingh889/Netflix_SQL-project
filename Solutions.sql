@@ -1,17 +1,30 @@
---NETFLIX MP....CREATING TABLE
+-- Netflix MP: Creating the main table to store Netflix dataset information
+-- Columns:
+-- show_id      : Unique identifier for each show
+-- type         : Type of content ('Movie' or 'TV Show')
+-- title        : Title of the show
+-- director     : Director(s) of the show (comma-separated if multiple)
+-- casts        : Cast/actors of the show (comma-separated)
+-- country      : Country or countries where the show was produced
+-- date_added   : Date the show was added to Netflix
+-- release_year : Year the show was released
+-- rating       : Content rating (e.g., PG, TV-MA)
+-- duration     : Duration of the show (minutes for movies, seasons for TV shows)
+-- listed_in    : Genre(s) of the show (comma-separated)
+-- description  : Brief description or synopsis of the show
 CREATE TABLE netflix (
-show_id VARCHAR(6),
-type varchar(10),	
-title VARCHAR(150),
-director VARCHAR(208),
-casts VARCHAR(1000),	
-country	VARCHAR(150),
-date_added VARCHAR(50),
-release_year INT,
-rating VARCHAR(10),
-duration VARCHAR(15),
-listed_in VARCHAR(100),
-description VARCHAR(250)
+    show_id VARCHAR(6),
+    type VARCHAR(10),    
+    title VARCHAR(150),
+    director VARCHAR(208),
+    casts VARCHAR(1000),    
+    country VARCHAR(150),
+    date_added VARCHAR(50),
+    release_year INT,
+    rating VARCHAR(10),
+    duration VARCHAR(15),
+    listed_in VARCHAR(100),
+    description VARCHAR(250)
 );
 
 SELECT * FROM netflix; --see the data
@@ -294,3 +307,4 @@ SELECT
         ELSE 'Other'
     END AS category
 FROM netflix;
+
