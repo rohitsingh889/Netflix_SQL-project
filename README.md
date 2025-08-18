@@ -1,12 +1,28 @@
 # Netflix_SQL-project
-SQL-based analysis of Netflix dataset: Movies, TV Shows, Actors, Genres, and Trends.
+A data-driven SQL analysis of Netflix content, uncovering trends in movies, TV shows, actors, genres, ratings, and global content patterns.
 
 
 ![Netflix_Logo](https://github.com/rohitsingh889/Netflix_SQL-project/blob/main/logo.png)
 
 # Netflix SQL Analysis Project
 
-This project is a comprehensive analysis of the Netflix dataset using **SQL**. The analysis covers movies, TV shows, actors, directors, genres, and content trends over the years.
+The Netflix SQL Analysis Project is a thorough and in-depth investigation of the Netflix dataset using PostgreSQL.
+It showcases practical SQL expertise applied to real-world data, encompassing movies, TV shows, actors, 
+directors, genres, ratings, and evolving content trends over time.
+
+The project delivers:
+
+Data Exploration & Validation: Verify dataset integrity and key metrics.
+
+Content Analytics: Insights on movies vs TV shows, ratings, durations, and release trends.
+
+Geographical Insights: Top-producing countries and annual content trends in India.
+
+Actor & Director Analysis: Leading actors, director-specific content, and missing director data.
+
+Genre & Category Analysis: Genre distribution, keyword-based content classification, and documentaries.
+
+Time-based Analysis: Recent additions and decade-wise content trends.
 
 ## Features & Analysis
 
