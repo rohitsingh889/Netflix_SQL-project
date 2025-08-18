@@ -185,10 +185,10 @@ SELECT *
 FROM netflix
 WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 years';
 
---Q7. Find All Movies/TV Shows by Director 'Rajiv Chilaka'
+--Q7. Find All Movies/TV Shows by Director 'Rathindran R Prasad'
 SELECT *
 FROM netflix
-WHERE director ILIKE '%Rajiv Chilaka%';
+WHERE director ILIKE '%Rathindran R Prasad%';
 
 
 
@@ -201,7 +201,7 @@ FROM (
         UNNEST(STRING_TO_ARRAY(director, ',')) AS director_name
     FROM netflix
 ) AS t
-WHERE director_name = 'Rajiv Chilaka';
+WHERE director_name = 'Rathindran R Prasad';
 
 
 --Q8. List All TV Shows with More Than 5 Seasons
@@ -260,10 +260,10 @@ WHERE type = 'Movie'
 FROM netflix
 WHERE director IS NULL;
 
---Q13. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
+--Q13. Find How Many Movies Actor 'Aishwarya Rajesh' Appeared in the Last 10 Years
 SELECT * 
 FROM netflix
-WHERE casts LIKE '%Salman Khan%'
+WHERE casts LIKE '%Aishwarya Rajesh%'
   AND release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 
   --Q14. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in India
@@ -310,5 +310,6 @@ SELECT
         ELSE 'Other'
     END AS category
 FROM netflix;
+
 
 
