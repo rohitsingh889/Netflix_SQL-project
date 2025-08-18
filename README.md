@@ -49,8 +49,27 @@ This project is a comprehensive analysis of the Netflix dataset using **SQL**. T
 2. Import the `netflix` dataset into PostgreSQL.
 3. Run the SQL queries in order to reproduce the analysis.
 
-## Insights
-- Understand trends in Netflix content by type, country, and genre.
-- Identify top actors, directors, and popular ratings.
-- Categorize content for sensitive keywords.
 
+Author - Rohit Raj Singh
+This project is part of my portfolio, demonstrating practical SQL skills applied to real-world datasets.
+It highlights key techniques such as data exploration, aggregation, filtering, joins, window functions, and advanced querying.
+This work reflects the kind of SQL expertise essential for data analyst and business intelligence roles.
+
+If you have any questions, suggestions, or are interested in collaborating, I’d love to hear from you—feel free to reach out!
+
+For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
+
+
+
+ **LinkedIn:** [Connect with me professionally](https://www.linkedin.com/in/rohit-raj-singh-3030172a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+
+
+## Insights
+-Analyze trends in Netflix content across types, countries, and genres to understand distribution and popularity.
+
+-Identify the most frequent actors, directors, and content ratings, highlighting industry patterns and audience preferences.
+
+-Categorize content based on sensitive keywords like “kill” and “violence” to assess content suitability and flag potentially inappropriate material.
+
+-Provide actionable insights for data-driven decision-making in content strategy and recommendation systems.
