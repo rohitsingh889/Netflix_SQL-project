@@ -1,6 +1,8 @@
 # Netflix_SQL-project
 SQL-based analysis of Netflix dataset: Movies, TV Shows, Actors, Genres, and Trends.
-![Netflix_Logo]()
+
+
+![Netflix_Logo](https://github.com/rohitsingh889/Netflix_SQL-project/blob/main/logo.png)
 
 # Netflix SQL Analysis Project
 
