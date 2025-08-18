@@ -66,7 +66,7 @@ Time-based Analysis: Recent additions and decade-wise content trends.
 3. Run the SQL queries in order to reproduce the analysis.
 
 
-Author - Rohit Raj Singh
+Author - Rohit Raj Singh,
 This project is part of my portfolio, demonstrating practical SQL skills applied to real-world datasets.
 It highlights key techniques such as data exploration, aggregation, filtering, joins, window functions, and advanced querying.
 This work reflects the kind of SQL expertise essential for data analyst and business intelligence roles.
